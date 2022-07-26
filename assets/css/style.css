@@ -1,0 +1,51 @@
+.one .title .major {
+ font-family: Arial, Helvetica, sans-serif;
+ color:rgba(36, 41, 67, 0.9);
+}
+
+.menu-center {
+ width: 95%;
+ margin: 0 auto;
+ max-width: 1170px;
+ display: grid;
+ gap: 2rem 2rem;
+ justify-items: center;
+}
+
+#menu-title .major h1 {
+ color: rgba(36, 41, 67, 0.9);
+}
+
+.menu-item { 
+ display: grid;
+ gap: 1rem 2rem;
+ max-width: 25rem; 
+ background: lemon;
+}
+
+.menu-center .menu-item img {
+ width: 100%;
+ object-fit: cover;
+ height: 230px;
+ border: 2px solid gold;
+ border-radius: 4px;
+}
+
+.menu-center .menu-item h4 {
+  margin-bottom: 0;
+}
+
+.menu-center .menu-item .price {
+color: orange;
+}
+
+
+@media screen and (min-width: 900px) {
+.menu-center {
+  width: 90vw;
+  grid-template-columns: 1fr 1fr;  
+ gap: 3rem 2rem;
+ justify-content: space-between;
+}
+}
+
